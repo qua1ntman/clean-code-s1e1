@@ -4,21 +4,21 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.eisenhower-matrix {
+.eisenhower-mtrx {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.eisenhower-matrix img {
+.eisenhower-mtrx img {
   width: 100%;
 }
-.eisenhower-matrix .more-info {
+.eisenhower-mtrx .more-info {
   font-family: fantasy, cursive;
 }
   
 @media (max-width:768px) {
-.eisenhower-matrix { text-align: center;
+.eisenhower-mtrx { text-align: center;
 }
 }
 .wrapper {
