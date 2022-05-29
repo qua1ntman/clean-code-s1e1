@@ -47,6 +47,7 @@ var createNewTaskElement=function(taskString){
     deleteButtonImg.src='./remove.svg';
     deleteButton.appendChild(deleteButtonImg);
 
+    listItem.classList.add('list')
 
     //and appending.
     listItem.appendChild(checkBox);

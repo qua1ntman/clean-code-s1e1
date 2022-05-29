@@ -5,7 +5,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
-<body>
+<body class="page">
   <header class="eisenhower-mtrx">
     <img src="./eisenhower-matrix.jpg">
     <a class="more-info" 
@@ -21,16 +21,16 @@
         <button>Add</button>
       </div>
     </p>
-    <h3>Todo</h3>
+    <h3 class="list-title">Todo</h3>
     <ul class="incompleted-tasks">
-      <li>
+      <li class="list">
         <input type="checkbox">
         <label class="task">Pay Bills</label>
         <input type="text" class="task">
         <button class="edit">Edit</button>
         <button class="delete"><img src="./remove.svg" alt="remove button"></button>
       </li>
-      <li class="edit-mode">
+      <li class="list edit-mode">
         <input type="checkbox">
         <label class="task">Go Shopping</label>
         <input type="text" value="Go Shopping" class="task">
@@ -38,9 +38,9 @@
         <button class="delete"><img src="./remove.svg" alt="remove button"></button>
       </li>
     </ul>
-    <h3>Completed</h3>
+    <h3 class="list-title">Completed</h3>
     <ul class="completed-tasks">
-      <li>
+      <li class="list">
         <input type="checkbox" checked>
         <label class="task">See the Doctor</label>
         <input type="text" class="task">
