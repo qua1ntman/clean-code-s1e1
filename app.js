@@ -39,6 +39,7 @@ var createNewTaskElement=function(taskString){
     checkBox.type="checkbox";
     editInput.type="text";
     editInput.className="list__task text-input";
+    checkBox.className="tasks__inpit-checkbox"
 
     editButton.innerText="Edit"; //innerText encodes special characters, HTML does not.
     editButton.className="list__edit btn";

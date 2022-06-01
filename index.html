@@ -15,7 +15,7 @@
   </header>
   <section class="wrapper">
     <p class="create">
-      <label for="create__new-task">Add Item</label>
+      <label for="create__new-task" class="create__new-task-label">Add Item</label>
       <div class="create__add-task-wrapper">
         <input id="create__new-task" class="task list__task text-input" type="text">
         <button class="btn">Add</button>
@@ -24,14 +24,14 @@
     <h3 class="list-title">Todo</h3>
     <ul class="incompleted-tasks">
       <li class="tasks__list">
-        <input type="checkbox">
+        <input type="checkbox" class="tasks__inpit-checkbox">
         <label class="list__task">Pay Bills</label>
         <input type="text" class="list__task text-input">
         <button class="btn list__edit">Edit</button>
         <button class="btn list__delete"><img src="./remove.svg" alt="remove button"></button>
       </li>
       <li class="tasks__list edit-mode">
-        <input type="checkbox">
+        <input type="checkbox" class="tasks__inpit-checkbox">
         <label class="list__task">Go Shopping</label>
         <input type="text" value="Go Shopping" class="list__task text-input">
         <button class="btn list__edit">Save</button>
@@ -41,7 +41,7 @@
     <h3 class="list-title">Completed</h3>
     <ul class="completed-tasks">
       <li class="tasks__list">
-        <input type="checkbox" checked>
+        <input type="checkbox" class="tasks__inpit-checkbox" checked>
         <label class="list__task">See the Doctor</label>
         <input type="text" class="list__task text-input">
         <button class="btn list__edit">Edit</button>

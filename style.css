@@ -74,7 +74,7 @@ button {
 
 /* Heading */
 .list-title,
-label[for="create__new-task"] {
+.create__new-task-label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -102,7 +102,7 @@ label[for="create__new-task"] {
 }
 
 /* New Task */
-label[for="create__new-task"] {
+.create__new-task-label {
   display: block;
   margin: 0 0 20px;
 }
@@ -126,7 +126,7 @@ label[for="create__new-task"] {
   vertical-align: middle;
 }
 
-.tasks__list > input[type="checkbox"] {
+.tasks__inpit-checkbox {
   margin: 0 10px;
 }
 
