@@ -19,11 +19,11 @@
 .eisenhower-mtrx .eisenhower-mtrx__more-info {
   font-family: fantasy, cursive;
 }
-  
+
 @media (max-width:768px) {
 
   .eisenhower-mtrx {
-    text-align: center;
+      text-align: center;
   }
 
 }
@@ -39,7 +39,7 @@
   flex-grow: 1;
 }
 
-.add-task-wrapper {
+.create__add-task-wrapper {
   display: flex;
 }
 
@@ -53,11 +53,12 @@
   list-style: none;
 }
 
-input,button {
+input,
+button {
   outline: none;
 }
 
-button {
+.btn {
   background: none;
   border: 0px;
   color: #888;
@@ -67,7 +68,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.btn:hover {
   color: #3a3A3a;
 }
 
@@ -83,7 +84,7 @@ label[for="create__new-task"] {
   text-transform: uppercase;
 }
 
-input[type="text"] {
+.text-input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -96,7 +97,7 @@ input[type="text"] {
   color: #888;
 }
 
-input[type="text"]:focus {
+.text-input:focus {
   color: #333;
 }
 

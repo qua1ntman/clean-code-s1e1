@@ -7,7 +7,7 @@
 </head>
 <body class="page">
   <header class="eisenhower-mtrx">
-    <img src="./eisenhower-matrix.jpg">list__task
+    <img src="./eisenhower-matrix.jpg" alt="eisenhower matrix">
     <a class="eisenhower-mtrx__more-info" 
       href="https://goal-life.com/page/method/matrix-eisenhower">
       Want more details?
@@ -17,8 +17,8 @@
     <p class="create">
       <label for="create__new-task">Add Item</label>
       <div class="create__add-task-wrapper">
-        <input id="create__new-task" class="task" type="text">
-        <button>Add</button>
+        <input id="create__new-task" class="task list__task text-input" type="text">
+        <button class="btn">Add</button>
       </div>
     </p>
     <h3 class="list-title">Todo</h3>
@@ -26,16 +26,16 @@
       <li class="tasks__list">
         <input type="checkbox">
         <label class="list__task">Pay Bills</label>
-        <input type="text" class="list__task">
-        <button class="list__edit">Edit</button>
-        <button class="list__delete"><img src="./remove.svg" alt="remove button"></button>
+        <input type="text" class="list__task text-input">
+        <button class="btn list__edit">Edit</button>
+        <button class="btn list__delete"><img src="./remove.svg" alt="remove button"></button>
       </li>
       <li class="tasks__list edit-mode">
         <input type="checkbox">
         <label class="list__task">Go Shopping</label>
-        <input type="text" value="Go Shopping" class="list__task">
-        <button class="list__edit">Save</button>
-        <button class="list__delete"><img src="./remove.svg" alt="remove button"></button>
+        <input type="text" value="Go Shopping" class="list__task text-input">
+        <button class="btn list__edit">Save</button>
+        <button class="btn list__delete"><img src="./remove.svg" alt="remove button"></button>
       </li>
     </ul>
     <h3 class="list-title">Completed</h3>
@@ -43,9 +43,9 @@
       <li class="tasks__list">
         <input type="checkbox" checked>
         <label class="list__task">See the Doctor</label>
-        <input type="text" class="list__task">
-        <button class="list__edit">Edit</button>
-        <button class="list__delete"><img src="./remove.svg" alt="remove button"></button>
+        <input type="text" class="list__task text-input">
+        <button class="btn list__edit">Edit</button>
+        <button class="btn list__delete"><img src="./remove.svg" alt="remove button"></button>
       </li>
     </ul>
   </section>
