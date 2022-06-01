@@ -130,14 +130,14 @@ button {
   margin: 0 10px;
 }
 
-.tasks__list > label {
+.list__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.tasks__list > input[type="text"] {
+.tasks__list > .text-input {
   width: 226px;
 }
 
@@ -152,18 +152,18 @@ button {
 }
 
 /* Completed */
-.completed-tasks label {
+.completed-tasks .list__label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.tasks__list input[type=text],
-.edit-mode label {
+.tasks__list .text-input,
+.edit-mode .list__label {
   display: none;
 }
 
-.edit-mode input[type=text] {
+.edit-mode .text-input {
   display: inline-block;
   width: 224px;
 }
